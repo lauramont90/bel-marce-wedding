@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('GreatVibes-Regular.ttf') format('truetype');
+    /* Otras propiedades de la fuente, como weight y style */
+}
+body {
+    font-family: 'MiFuentePersonalizada', sans-serif;
+    max-width: 100%;
+    background-color: #FFFFF0;
+}
+
+/* Otras reglas CSS que utilicen la fuente personalizada */
+
+h1 {
+    font-size: 6rem; /* 96px */
+    font-weight: 400;
+    color: #c4b08d;
+    text-align: center;
+    line-height: 0.5;
+    margin-top: 4rem;
+}
+.flex{
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+p, span {
+    font-size: 2.25rem/* 36px */;
+    line-height: 1rem/* 40px */;
+    color: #c4b08d;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+.clock{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items:center;  
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-bottom: 5rem;
+}
+span {
+    line-height: 3rem;
+}
+.second-t {
+    font-size: 3.50rem/* 60px */;
+}
+button{
+    border-width: 1px;
+    border-color:  #c4b08d;
+    border-radius: 0.75rem/* 12px */;
+    font-weight: 400;
+    margin-top: 2rem/* 32px */;
+    font-size: 2.25rem/* 36px */;
+    line-height: 2.5rem/* 40px */;
+    background-color: #FFFFF0;
+    text-align: center;
+    width: 25%;
+    padding-top: 0.75rem/* 12px */;
+    padding-bottom: 0.75rem/* 12px */;
+    font-family: 'MiFuentePersonalizada', sans-serif;
+    color: #c4b08d;
+    margin-bottom: 60px;
+    box-shadow: none;
+     
+} 
+button:hover{
+    background-color:  #c4b08d;
+    color: #FFFFF0;
+}
+iframe{
+    margin-bottom: 2rem;
+}
+.space{
+    margin-top: 4rem;
+}
+.ftr{
+    font-size: 24px;
+    
+}
+.title {
+    margin-top: 2rem;
+}
+.space-title-tw{
+    margin-top: 10rem;
+}
+
+/******************* RESPONSIVE *******************/
+
+@media (max-width: 375px) {
+    .title-size {
+        text-align: center;
+        font-size: 4rem;
+    }
+    
+    .img-rose{
+        max-width: 95%;
+    }
+    #img-rosa{
+        width: 95%; /* Establece el ancho al 100% del contenedor */
+        max-width: 95%;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        font-size: 1.5rem/* 36px */;
+        line-height: 0.5rem/* 40px */;
+        color: #c4b08d;
+        font-weight: 400;
+        text-align: center;   
+    }
+    span{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        width: 8%;
+    }
+    #img-rosa-one{
+        width: 50%; /* Establece el ancho al 100% del contenedor */
+        max-width: 100%;
+    }
+    .second-t{
+        font-size: 3rem/* 60px */;
+        line-height: 3.75rem/* 40px */;
+    }
+    button {
+        width: 80%;
+    }
+    iframe {
+        width: auto;
+    }
+    .ftr{
+        font-size: 15px;
+    }
+    .column {
+        width: 90%;
+    }
+    .space-title{
+        margin-bottom: 8rem;
+    }
+    button:hover{
+        background-color: #c4b08d;
+        color: #FFFFF0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    
+}
+
+/* Estilos adicionales de pantalla grande (escritorio) si es necesario */
+@media (max-width: 425px) {
+    .title-size {
+        text-align: center;
+        font-size: 4.5rem;
+    }
+    
+    .img-rose{
+        max-width: 95%;
+    }
+    #img-rosa{
+        width: 95%; /* Establece el ancho al 100% del contenedor */
+        max-width: 95%;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        font-size: 1.8rem/* 36px */;
+        line-height: 0.5rem/* 40px */;
+        color: #c4b08d;
+        font-weight: 400;
+        text-align: center;   
+    }
+    span{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    #img-rosa-one{
+        width: 50%; /* Establece el ancho al 100% del contenedor */
+        max-width: 100%;
+    }
+    .second-t{
+        font-size: 3.75rem/* 60px */;
+        line-height: 3.75rem/* 40px */;
+    }
+    button {
+        width: 50%;
+    }
+    iframe {
+        width: auto;
+    }
+    .ftr{
+        font-size: 18px;
+    }
+    .space-title{
+        margin-bottom: 8rem;
+    }
+    button:hover{
+        background-color: #c4b08d;
+        color: #FFFFF0;
+    }
+    .second-size{
+        font-size: 3rem/* 60px */;
+        line-height: 0.5rem;
+    }
+    body {
+        overflow-x: hidden;
+    }
+   
+}
+@media (max-width: 768px) {
+    button {
+        width: 50%;
+    }
+    .space-title{
+        margin-bottom: 8rem;
+    }
+}
+@media (max-width: 375px) {
+    .title-size {
+        text-align: center;
+        font-size: 4rem;
+    }
+    
+    .img-rose{
+        max-width: 95%;
+    }
+    #img-rosa{
+        width: 95%; /* Establece el ancho al 100% del contenedor */
+        max-width: 95%;
+    }
+    .flex {
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        font-size: 1.5rem/* 36px */;
+        line-height: 0.5rem/* 40px */;
+        color: #c4b08d;
+        font-weight: 400;
+        text-align: center;   
+    }
+    span{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+        width: 8%;
+    }
+    #img-rosa-one{
+        width: 50%; /* Establece el ancho al 100% del contenedor */
+        max-width: 100%;
+    }
+    .second-t{
+        font-size: 3rem/* 60px */;
+        line-height: 3.75rem/* 40px */;
+    }
+    button {
+        width: 80%;
+    }
+    iframe {
+        width: auto;
+    }
+    .ftr{
+        font-size: 15px;
+    }
+    .column {
+        width: 90%;
+    }
+    .space-title{
+        margin-bottom: 8rem;
+    }
+    button:hover{
+        background-color: #c4b08d;
+        color: #FFFFF0;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
