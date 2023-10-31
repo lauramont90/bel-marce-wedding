@@ -26,33 +26,13 @@ setInterval(updateCountdown, 1000);
 // Llama a la función para actualizar el contador inmediatamente
 updateCountdown();
 // Obtén una referencia al botón por su ID
-const botonWhatsapp = document.getElementById("botonWhatsapp");
+
 const botonGoogleMaps = document.getElementById("botonGoogleMaps");
-const botonSpotify = document.getElementById("botonSpotify");
-const botonWhatsappMenu = document.getElementById("botonWhatsappMenu");
 
-// Agrega un manejador de eventos al botón
-botonWhatsapp.addEventListener("click", function() {
-    // URL de WhatsApp que deseas abrir
-    const urlWhatsapp = "https://wa.me/+541124683994?text=Mi%20nombre%20y%20apellido%20es...%20Gracias%20por%20la%20invitación";
 
-    // Redirige a la URL de WhatsApp
-    window.open(urlWhatsapp, "_blank");
-});
+
 // Agrega un manejador de eventos al botón de Google Maps
 botonGoogleMaps.addEventListener("click", function() {
     const urlGoogleMaps = "https://maps.app.goo.gl/GLYdA1xn6hCGAf2H8";
     window.open(urlGoogleMaps, "_blank");
-});
-botonSpotify.addEventListener("click", function() {
-    // Abre la URL de la lista de reproducción en una nueva pestaña
-    window.open("https://spotify.link/L1ENKQXv5Db");
-});
-// Agrega un manejador de eventos al botón
-botonWhatsappMenu.addEventListener("click", function() {
-    // URL de WhatsApp que deseas abrir
-    const urlWhatsappMenu = "https://wa.me/+541124683994?text=Tengo%20una%20condición%20con%20el%20menú";
-
-    // Redirige a la URL de WhatsApp
-    window.open(urlWhatsappMenu, "_blank");
 });
