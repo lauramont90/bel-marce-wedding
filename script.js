@@ -1,5 +1,5 @@
 // Fecha objetivo (24 de noviembre)
-const targetDate = new Date('2023-11-24 13:00:00').getTime();
+const targetDate = new Date('2023-11-24 12:30:00').getTime();
 
 function updateCountdown() {
     const now = new Date().getTime();
