@@ -219,7 +219,7 @@ iframe{
         overflow-x: hidden;
     }
     #ring{
-        width: 40%;
+        width: 20%;
     }
    
 }
@@ -231,7 +231,7 @@ iframe{
         margin-bottom: 8rem;
     }
     #ring{
-        width: 40%;
+        width: 20%;
     }
 }
 @media (max-width: 375px) {
@@ -294,6 +294,6 @@ iframe{
         overflow-x: hidden;
     }
     #ring{
-        width: 40%;
+        width: 20%;
     }
 }
