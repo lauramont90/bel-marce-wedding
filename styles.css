@@ -131,7 +131,7 @@ iframe{
         line-height: 3.75rem/* 40px */;
     }
     button {
-        width: 80%;
+        width: 75%;
     }
     iframe {
         width: auto;
@@ -196,7 +196,7 @@ iframe{
         line-height: 3.75rem/* 40px */;
     }
     button {
-        width: 50%;
+        width: 75%;
     }
     iframe {
         width: auto;
@@ -225,7 +225,7 @@ iframe{
 }
 @media (max-width: 768px) {
     button {
-        width: 50%;
+        width: 75%;
     }
     .space-title{
         margin-bottom: 8rem;
